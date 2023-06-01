@@ -7,12 +7,8 @@
     <title>Document</title>
 </head>
 
-<style>
-    body{
-        background-color: #1a1a1a;
-        color: white;
-    }
-</style>
+@include('partials.style')
+
 <body>
     @include('partials.header')
     <h1>Chi siamo</h1>
