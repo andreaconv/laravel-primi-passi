@@ -18,4 +18,12 @@ Route::get('/', function () {
     $name = 'Ciccillo';
     $lastname = 'Cacace';
     return view('homepage', compact('name', 'lastname'));
-});
+})->name('homepage');
+
+Route::get('/about', function () {
+    $data = [
+        'name' => 'Giuseppe',
+        'lastname' => 'Verdi'
+    ];
+    return view('about-us', $data);
+})->name('about');

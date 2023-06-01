@@ -15,8 +15,7 @@
 </style>
 <body>
     @include('partials.header')
-    <h1>Hello World</h1>
-    <h2>Benvenuto {{ $name }} {{ $lastname }}</h2>
-
+    <h1>Chi siamo</h1>
+    <h2>Siamo {{ $name }} {{ $lastname }}</h2>
 </body>
 </html>
